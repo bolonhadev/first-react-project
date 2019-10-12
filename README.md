@@ -33,3 +33,21 @@ Pages_path_x                =>      Index.js > ComponentHEAD ( History.push ? tr
 Pages_path_x                =>      Index.js > Component_JSX_Return <JSX /> to -> Index.js
 
 Index.js                    =>      ReactDOM.render(<App />, document.getElementById('root')); // new magic RETURN
+
+# /user
+
+Now we're (_app + api_) ready and waiting for the user interaction.
+
+When the user Enter a URL or hit a button, then a Event happens on the page.
+
+This Event, even the headers, some body part, or a query it's sent to the frontend.
+
+The frontend handle the request (event, method, data, all stuffs).
+
+Now the front can just RENDER something or...
+
+Send that Request to the backend, if necessary, gets the results and made a decision.
+
+This decision can be an history.push(), or just RENDER that something
+
+Voilà ! That's it ! É nóis jão !
