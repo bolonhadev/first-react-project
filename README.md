@@ -2,25 +2,25 @@
 My very first react project, taking classes from Rocketseat
 
 # /backend
-User request(method)        =>      server.js
+User request(method)        =>      Server.js
 
-Server.js                   =>      call routes.js + mydb.nosql + frameworks
+Server.js                   =>      Call routes.js + mydb.nosql + frameworks
 
-Routes.js(request(method))  =>      routes.method('/path',xController.actionMethod);
+Routes.js(request(method))  =>      Routes.method( '/path', xController.actionMethod) ;
 
-Controllers.js              =>      do.action(method,route,action_on_db);
+Controllers.js              =>      Do.action( method, route, action_on_db) ;
 
-Models.js                   =>      db_framework(new db_Schema{ name: type });
+Models.js                   =>      Db_framework( new db_Schema { name: type });
 
 # /frontend
 
 Index.html                  =>      #root
 
-Index.js                    =>      ReactDOM.render(<App />, document.getElementById('root')); > the magic is here
+Index.js                    =>      ReactDOM.render(<App />, document.getElementById('root')); // the magic is here
 
 App.js                      =>      JSX > img + Routes
   
-Routes.js                   =>      BrowserRouter > Switch > Route's[ path='/x' component='x' ]()
+Routes.js                   =>      BrowserRouter > Switch > Route's( path='/x' component='x' )
 
 Pages_path_x                =>      Index.js > Dependencies( React + UseStates + UseEffect + React Router DOM ...
 
