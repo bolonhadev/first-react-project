@@ -16,7 +16,7 @@ Models.js                   =>      Db_framework( new db_Schema { name: type });
 
 Index.html                  =>      #root
 
-Index.js                    =>      ReactDOM.render(<App />, document.getElementById('root')); // the magic is here
+Index.js                    =>      ReactDOM.render( App.comp, document.getElementById( 'root' )); // the magic is here
 
 App.js                      =>      JSX > img + Routes
   
@@ -32,7 +32,7 @@ Pages_path_x                =>      Index.js > ComponentHEAD ( History.push ? tr
 
 Pages_path_x                =>      Index.js > Component_JSX_Return <JSX /> to -> Index.js
 
-Index.js                    =>      ReactDOM.render( App.comp , document.getElementById( 'root' )); // new magic RETURN
+Index.js                    =>      ReactDOM.render( App.comp, document.getElementById( 'root' )); // new magic RETURN
 
 # /user
 
