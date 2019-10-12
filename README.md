@@ -40,7 +40,7 @@ Now we're (_app + api_) ready and waiting for the user interaction.
 
 When the user Enter a URL or hit a button, then a Event happens on the page.
 
-This Event, even the headers, some body part, or a query it's sent to the frontend.
+This Event, even the headers, some body part, or a query is sent to the frontend.
 
 The frontend handle the request (event, method, data, all stuffs).
 
