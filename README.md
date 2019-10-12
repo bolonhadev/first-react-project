@@ -32,7 +32,7 @@ Pages_path_x                =>      Index.js > ComponentHEAD ( History.push ? tr
 
 Pages_path_x                =>      Index.js > Component_JSX_Return <JSX /> to -> Index.js
 
-Index.js                    =>      ReactDOM.render(<App />, document.getElementById('root')); // new magic RETURN
+Index.js                    =>      ReactDOM.render( App.comp , document.getElementById( 'root' )); // new magic RETURN
 
 # /user
 
